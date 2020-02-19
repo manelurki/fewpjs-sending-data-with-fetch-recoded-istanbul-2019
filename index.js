@@ -1,9 +1,7 @@
 function submitData(){
-  let user={};
-  user["name"]='  Steve';
-  user["email"]='Steve@gmail.com';
-  let configObj={
-    method:"POST",
+   return fetch( 'http://localhost:3000/users', {
+      method: "POST",
+    
     headers: {
       "Content-Type":"application/json","Accept":"application/json"},
      body: JSON.stringify(user),
