@@ -1,7 +1,7 @@
 function submitData(){
   let user={};
   user["name"]='  Steve';
-  user["email"]='steve@gmail.com';
+  user["email"]='Steve@gmail.com';
   let configObj={
     method:"POST",
     headers: {
